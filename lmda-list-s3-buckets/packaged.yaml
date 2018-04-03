@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'An example Serverless project that uses the AWS SDK to list S3 buckets
+
+  '
+Resources:
+  ExampleFunction:
+    Properties:
+      CodeUri: s3://gani-test/cf920eda0e349af5adfc1525c914f949
+      Handler: index.handler
+      Runtime: nodejs6.10
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31
