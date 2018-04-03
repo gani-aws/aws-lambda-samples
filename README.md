@@ -1,2 +1,3 @@
-# aws-lambda-samples
-This repository contains server less lambda examples step by step
+# Setup SAM Local to execute Lambda Functions
+follow below links for the same
+![alt text](https://github.com/awslabs/aws-sam-local#installation)
